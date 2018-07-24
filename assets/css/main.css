@@ -3548,7 +3548,7 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
+				border-color: transparent;
 				color: #18bfef !important;
 			}
 
@@ -3569,7 +3569,6 @@ input, select, textarea {
 
 				#header .logo {
 					font-size: 1.75rem;
-					border-width: 3px !important;
 				}
 
 		}
