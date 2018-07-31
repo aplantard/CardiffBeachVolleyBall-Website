@@ -6,10 +6,14 @@
 -->
 <html>
 	<head>
-		<title>Donate</title>
+		<title>Venue Hire</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -26,14 +30,14 @@
 				<nav id="nav">
 					<ul class="links">
 						<li><a href="index.html">Home</a></li>
-						<li class="active"><a href="donate.html">Donate</a></li>
+						<li><a href="donate.html">Donate</a></li>
 						<li><a href="theTeam.html">Meet The Team</a></li>
 						<li><a href="#">Play</a></li>
 						<li><a href="news.html">News</a></li>
 						<li><a href="events.html">Events</a></li>
 						<li><a href="#">Training</a></li>
 						<li><a href="venuehire.html">Venue Hire</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
+						<li class="active"><a href="gallery.html">Gallery</a></li>
 					</ul>
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -49,20 +53,55 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>Donate Here</h1>
-									<p>Cardiff Beach Volleyball Club is a non profit making Community Amateur Sports Club (CASC) which relies on membership and contributions to run the finances of the club. </p>
+									<h1>Gallery</h1>
 								</header>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Any donations will be greatly appreciated.</p>
-								<b>If you have used the facility without paying please catch up now with a donation into the club bank account.</b>
-								<p>Many Thanks<br>Cardiff Beach VolleyBall Club</p>
-								<section class="middle box">
-									<p>Bank details :</p>
-									<p>​Lloyds Bank</p>
-									<p>Cardiff Beach Volleyball Club</p>
-									<p>Sort code: 30-92-92</p>
-									<p>Account number: 36732660</p>
-								</section>
+								<div class="grid js-masonry row gtr-50 gtr-uniform" data-masonry-options='{ "itemSelector": ".col-4", "columnWidth": ".col-4", "percentPosition":"true"}'>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',0)"><img src="images/gallery/gallery1.jpg"></a>
+										</span>
+									</div>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',1)"><img src="images/gallery/gallery2.jpg"></a>
+										</span>
+									</div>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',2)"><img src="images/gallery/gallery3.jpg"></a>
+										</span>
+									</div>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',3)"><img src="images/gallery/gallery4.jpg"></a>
+										</span>
+									</div>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',4)"><img src="images/gallery/gallery5.jpg"></a>
+										</span>
+									</div>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',5)"><img src="images/gallery/gallery6.jpg"></a>
+										</span>
+									</div>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',5)"><img src="images/gallery/gallery7.jpg"></a>
+										</span>
+									</div>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',5)"><img src="images/gallery/gallery8.jpg"></a>
+										</span>
+									</div>
+									<div class="col-4">
+										<span class="image fit">
+											<a href="#Modal" onclick="$('.carrousel').slick('slickGoTo',5)"><img src="images/gallery/gallery9.jpg"></a>
+										</span>
+									</div>
+								</div>
 							</section>
 
 					</div>
@@ -136,6 +175,32 @@
 						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
+					<div class="remodal" data-remodal-id="Modal">
+						<button data-remodal-action="close" class="remodal-close"></button>
+						<div class="carrousel">
+							<img src="images/gallery/gallery1.jpg">
+							<img src="images/gallery/gallery2.jpg">
+							<img src="images/gallery/gallery3.jpg">
+							<img src="images/gallery/gallery4.jpg">
+							<img src="images/gallery/gallery5.jpg">
+							<img src="images/gallery/gallery6.jpg">
+							<img src="images/gallery/gallery7.jpg">
+							<img src="images/gallery/gallery8.jpg">
+							<img src="images/gallery/gallery9.jpg">
+						</div>
+						<div class="minicarrousel">
+							<img src="images/gallery/gallery1.jpg">
+							<img src="images/gallery/gallery2.jpg">
+							<img src="images/gallery/gallery3.jpg">
+							<img src="images/gallery/gallery4.jpg">
+							<img src="images/gallery/gallery5.jpg">
+							<img src="images/gallery/gallery6.jpg">
+							<img src="images/gallery/gallery7.jpg">
+							<img src="images/gallery/gallery8.jpg">
+							<img src="images/gallery/gallery9.jpg">
+						</div>
+					</div>
+
 			</div>
 
 		<!-- Scripts -->
@@ -146,6 +211,29 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+			<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$('.carrousel').slick({
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						arrows: true,
+						fade: true,
+						asNavFor: '.minicarrousel',
+						adaptiveHeight: true
+					});
+					$('.minicarrousel').slick({
+						slidesToShow: 3,
+  						slidesToScroll: 1,
+  						asNavFor: '.carrousel',
+						centerMode: true,
+						arrows: false,
+  						focusOnSelect: true
+					});
+				});
+			</script>
 
 	</body>
 </html>
