@@ -1,21 +1,22 @@
+
+<?php
+	session_start();
+?>
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Donate</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal-default-theme.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+			<div id="wrapper" class="remodal-bg">
 
 				<!-- Header -->
 					<header id="header">
@@ -25,15 +26,15 @@
 				<!-- Nav -->
 				<nav id="nav">
 					<ul class="links">
-						<li><a href="index.html">Home</a></li>
-						<li class="active"><a href="donate.html">Donate</a></li>
-						<li><a href="theTeam.html">Meet The Team</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li class="active"><a href="donate.php">Donate</a></li>
+						<li><a href="theTeam.php">Meet The Team</a></li>
 						<li><a href="#">Play</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="events.html">Events</a></li>
+						<li><a href="news.php">News</a></li>
+						<li><a href="events.php">Events</a></li>
 						<li><a href="#">Training</a></li>
-						<li><a href="venuehire.html">Venue Hire</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="venuehire.php">Venue Hire</a></li>
+						<li><a href="gallery.php">Gallery</a></li>
 					</ul>
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -102,7 +103,7 @@
 									<h3>Phone</h3>
 									<div>
 										<h4>office</h4>
-										<p><a href="tel:">(000) 000-0000</a></p>
+										<p><a href="tel:02920 569 875">02920 569 875</a></p>
 										<h4>General Enquiries</h4>
 										<p><a href="tel:0789 9902 556">Mike Constantinou : 0789 9902 556</a></p>
 										<p><a href="tel:0754 5938 071">Carl Harwood : 0754 5938 071</a></p>
@@ -132,11 +133,9 @@
 					</footer>
 
 				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
+				<?php
+						include('copyright.php');
+					?>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -146,6 +145,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
 	</body>
 </html>

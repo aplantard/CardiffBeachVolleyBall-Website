@@ -4685,3 +4685,20 @@ input, select, textarea {
 	.carrousel .slick-next {
 		right: 15px;
 	}
+	#copyright .button {
+		color: rgba(255, 255, 255, 0.25) !important;
+		box-shadow : inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+	}
+
+	#adminform {
+		text-align: center;
+	}
+
+	#adminpopup img {
+		width: 50%;
+		margin-bottom: 10%;
+	}
+
+	#submitbutton{
+		padding-top: 1.5rem;
+	}

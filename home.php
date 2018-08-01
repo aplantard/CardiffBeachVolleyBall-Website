@@ -1,9 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<?php
+	include('dbconnect.php');
+?>
 <html>
 	<head>
 		<title>Massively by HTML5 UP</title>
@@ -34,7 +32,7 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="index.php">Home</a></li>
 							<li><a href="#">Donate</a></li>
 							<li><a href="#">Meet The Team</a></li>
 							<li><a href="#">Beach VolleyBall</a></li>
@@ -44,8 +42,8 @@
 							<li><a href="#">Venue Hire</a></li>
 							<li><a href="#">Contact</a></li>
 							<li><a href="#">Gallery</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li><a href="elements.html">Elements Reference</a></li>
+							<li><a href="generic.php">Generic Page</a></li>
+							<li><a href="elements.php">Elements Reference</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -231,6 +229,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+		    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.1/remodal.min.js"></script>
 	</body>
 </html>

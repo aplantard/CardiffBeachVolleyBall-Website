@@ -1,9 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<?php
+	include('dbconnect.php');
+?>
 <html>
 	<head>
 		<title>Elements Reference - Massively by HTML5 UP</title>
@@ -25,9 +23,9 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li><a href="index.html">This is Massively</a></li>
-							<li><a href="generic.html">Generic Page</a></li>
-							<li class="active"><a href="elements.html">Elements Reference</a></li>
+							<li><a href="index.php">This is Massively</a></li>
+							<li><a href="generic.php">Generic Page</a></li>
+							<li class="active"><a href="elements.php">Elements Reference</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>

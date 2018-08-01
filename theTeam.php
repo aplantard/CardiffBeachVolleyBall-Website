@@ -1,9 +1,7 @@
+<?php
+	session_start();
+?>
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Meet The Team</title>
@@ -27,15 +25,15 @@
 				<!-- Nav -->
 				<nav id="nav">
 					<ul class="links">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="donate.html">Donate</a></li>
-						<li class="active"><a href="theTeam.html">Meet The Team</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="donate.php">Donate</a></li>
+						<li class="active"><a href="theTeam.php">Meet The Team</a></li>
 						<li><a href="#">Play</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="events.html">Events</a></li>
+						<li><a href="news.php">News</a></li>
+						<li><a href="events.php">Events</a></li>
 						<li><a href="#">Training</a></li>
-						<li><a href="venuehire.html">Venue Hire</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="venuehire.php">Venue Hire</a></li>
+						<li><a href="gallery.php">Gallery</a></li>
 					</ul>
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
@@ -177,7 +175,7 @@
 									<h3>Phone</h3>
 									<div>
 										<h4>office</h4>
-										<p><a href="tel:">(000) 000-0000</a></p>
+										<p><a href="tel:02920 569 875">02920 569 875</a></p>
 										<h4>General Enquiries</h4>
 										<p><a href="tel:0789 9902 556">Mike Constantinou : 0789 9902 556</a></p>
 										<p><a href="tel:0754 5938 071">Carl Harwood : 0754 5938 071</a></p>
@@ -207,11 +205,9 @@
 					</footer>
 
 				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
-			</div>
+				<?php
+						include('copyright.php');
+					?>
 			<div id="remodals">
 			<div class="remodal" data-remodal-id="joanneModal">
 				<button data-remodal-action="close" class="remodal-close"></button>
